@@ -6,7 +6,6 @@ st.set_page_config(page_title="Automated Sales BI Dashboard", layout="wide")
 st.title("📊 Automated Sales BI Dashboard")
 st.caption("Prototype ready for Snowflake live data integration & Cortex Code automation")
 
-# Przykładowe dane sprzedażowe (do zastąpienia połączeniem ze Snowflake)
 @st.cache_data
 def load_sample_data():
     data = {
@@ -14,7 +13,7 @@ def load_sample_data():
         "Region": ["EMEA", "North America", "EMEA", "North America", "EMEA", "North America", "EMEA", "North America"],
         "Product": ["Enterprise Plan", "Pro Plan", "Enterprise Plan", "Pro Plan", "Pro Plan", "Enterprise Plan", "Enterprise Plan", "Pro Plan"],
         "Revenue":,
-        "Deals_Closed": [14, 21, 16, 23, 26, 18, 20, 27]
+        "Deals_Closed": [14, 22, 16, 25, 28, 18, 19, 30]
     }
     return pd.DataFrame(data)
 
