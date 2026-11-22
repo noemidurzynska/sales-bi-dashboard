@@ -12,8 +12,8 @@ def load_sample_data():
         "month": ["2026-06", "2026-06", "2026-07", "2026-07", "2026-08", "2026-08", "2026-09", "2026-09"],
         "region": ["EMEA", "North America", "EMEA", "North America", "EMEA", "North America", "EMEA", "North America"],
         "product": ["Enterprise Plan", "Pro Plan", "Enterprise Plan", "Pro Plan", "Pro Plan", "Enterprise Plan", "Enterprise Plan", "Pro Plan"],
-        "revenue":,
-        "deals_closed": [14, 22, 16, 25, 28, 18, 19, 30]
+        "revenue": list((42000, 31000, 48000, 35000, 39000, 52000, 56000, 44000)),
+        "deals_closed": list((14, 22, 16, 25, 28, 18, 19, 30))
     }
     return pd.DataFrame(data)
 
